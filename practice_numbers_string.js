@@ -78,13 +78,11 @@ const sortContacts = (contacts, flag = true) =>
 const contacts = [
     { name: 'Tom', phoneNumber: '777-77-77' },
     { name: 'Anna', phoneNumber: '888-88-88' },
-    { name: 'bob', phoneNumber: '999-99-99' },
 ];
 
 console.log('\n==========Task2==========\n');
 console.log(sortContacts(contacts));
 console.log(sortContacts(contacts, false));
-console.log(sortContacts('not array'));
 
 
 

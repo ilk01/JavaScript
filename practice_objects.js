@@ -29,5 +29,3 @@ const copied = copyObj(original);
 console.log('\n==========Task4==========:\n');
 console.log(copied);
 console.log(copied === original);  // false, тк новый объект
-
-arr.reduce((obj, item) => (obj[item] = item, obj), {});
