@@ -1,0 +1,39 @@
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #39a728;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #2e8b20;
+}
+
+button:active {
+    transform: scale(0.95) translateY(2px);
+    transition: transform 0.05s ease;
+}
+
+button.delete-btn {
+    background-color: transparent;
+    color: #39a728;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+}
+
+button.delete-btn:hover {
+    background-color: #ff0000;
+    color: white;
+    border-color: #ff0000;
+}
+
+button.delete-btn:active {
+    transform: scale(0.95) translateY(2px);
+    transition: transform 0.05s ease;
+}

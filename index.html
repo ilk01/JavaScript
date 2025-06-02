@@ -2,12 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
-    <title>Чистый JavaScript</title>
+    <title>Список дел</title>
+    <link rel="stylesheet" href="style_todo.css" />
 </head>
 <body>
+<h2>Список дел</h2>
+<input type="text" id="taskInput" placeholder="Новая задача" />
+<button onclick="add()">Добавить</button>
+<ul id="taskList"></ul>
 
-<script src="practice_array_methods.js"></script>
-<script src="practice_numbers_string.js"></script>
-<script src="practice_objects.js"></script>
+<script src="todo.js"></script>
 </body>
 </html>
